@@ -14,7 +14,7 @@ var retryOperations = new azure.ExponentialRetryPolicyFilter();
 var serviceBusService = azure.createServiceBusService("").withFilter(retryOperations);
 
 log("Starting Message Producer \n");
-log("Queue: hello");
+log("Topic: helloTopic");
 log("==========================\n")
 
 var recursiveAsyncReadLine = function () {
@@ -23,10 +23,10 @@ var recursiveAsyncReadLine = function () {
       body: input,
       customProperties: { testproperty: 'TestValue' }
     };
-
+    
     log('Sending message.');
 
-    serviceBusService.sendQueueMessage('hello', message, function(error){
+    serviceBusService.sendTopicMessage('helloTopic', message, function(error) {
       if(!error){
         log('message sent.');
         recursiveAsyncReadLine(); 
