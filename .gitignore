@@ -33,3 +33,7 @@ node_modules
 
 # VS Code
 .vscode
+
+# Azure Functions extensions
+obj
+*.csproj
