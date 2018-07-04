@@ -1,7 +1,7 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "",
-    "AzureWebJobsDashboard": ""
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=functiontestcs8aea;AccountKey=iMjlIn11xtbJhONYzGd14kSrV1FoKmb7BBdYbcr7Jhcr+g5BRCG5cr3OWk853DIOaO+Y2Is4HKQ5IZfN9ZiRnw==",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=functiontestcs8aea;AccountKey=iMjlIn11xtbJhONYzGd14kSrV1FoKmb7BBdYbcr7Jhcr+g5BRCG5cr3OWk853DIOaO+Y2Is4HKQ5IZfN9ZiRnw=="
   }
 }

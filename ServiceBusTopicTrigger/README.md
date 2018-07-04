@@ -1,7 +1,7 @@
 ### Prerequisites
 
 - A [Service Bus](https://azure.microsoft.com/en-us/services/service-bus/)
-- Node.js (send message to Service Bus queue)
+- Node.js (send message to Service Bus Topic)
 
 ### Steps
 1. Go to `project/pom.xml`, replace the value of `resource-group` and `azure-functions-name` with the real value you want.
