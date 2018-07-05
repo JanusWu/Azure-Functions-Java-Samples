@@ -12,7 +12,7 @@ public class EventHub {
      */
     @FunctionName("EventHub")
     public void eventHubHandler(
-        @EventHubTrigger(name = "message", eventHubName = "myHub", connection = "connection", consumerGroup = "$default") String message,
+        @EventHubTrigger(name = "message", eventHubName = "myhub", connection = "connection", consumerGroup = "$default") String message,
         final ExecutionContext context
     ) {
         context.getLogger().info("Java Event Hub trigger function executed.");
