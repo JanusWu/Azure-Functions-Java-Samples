@@ -23,6 +23,7 @@
     </properties>
 
     <dependencyManagement>
+        <dependencies>
             <dependency>
                 <groupId>com.microsoft.azure.functions</groupId>
                 <artifactId>azure-functions-java-library</artifactId>
